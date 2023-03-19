@@ -1,0 +1,356 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+
+body {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-family: 'Open Sans', sans-serif;
+ }
+
+
+.cseLogo{
+    width: 40%;
+    height: 120px;
+    position: relative;
+    float: left;
+    display: flex;
+    /* padding-bottom: 15px; */
+}
+
+.iitLogo{
+    width: 60%;
+    height: 120px;  
+    position: relative;
+    float: right;
+    display: flex;
+    /* padding-bottom: 15px; */
+}
+/* Style the navigation menu */
+.navbar {
+
+    width: 100%;
+    background-color: rgb(122, 46, 46);
+    overflow: auto;
+    border-radius: 0%;
+    /* position: fixed; */
+  }
+  
+  /* Navigation links */
+  .navbar a {
+    float: left;
+    padding: 9px;
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    width: 20%; /* Four equal-width links. If you have two links, use 50%, and 33.33% for three links, etc.. */
+    text-align: center; /* If you want the text to be centered */
+  }
+  
+  /* Add a background color on mouse-over */
+  .navbar a:hover {
+    background-color: rgb(201, 125, 67);
+  }
+  /* Add responsiveness - on screens less than 500px, make the navigation links appear on top of each other, instead of next to each other */
+  @media screen and (max-width: 500px) {
+    .cseLogo{
+        
+        height: 50px;
+        width: 100%;
+    }
+    .iitLogo{
+        height: 50px;
+        width: 100%;
+    }
+    .navbar a {
+      float: none;
+      display: block;
+      width: 100%;
+      text-align: left; /* If you want the text to be left-aligned on small screens */
+    }
+  }
+
+  .slide{
+    padding-top: 15px;
+  }
+
+
+  .ig{
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+  }
+
+  .first{
+    padding-top: 50px;
+  }
+
+  .contactDetails{
+    padding-left: 25px;
+    padding-top: 25px;
+  }
+
+/* Set height of body and the document to 100% to enable "full page tabs" */
+body, html {
+  height: 100%;
+  margin: 0;
+  font-family: Arial;
+}
+/* Style the tab */
+.tab {
+  overflow: hidden;
+  border: 1px solid #ccc;
+  background-color: #f1f1f1;
+}
+
+/* Style the buttons that are used to open the tab content */
+.tab button {
+  background-color: inherit;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  transition: 0.3s;
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+  background-color: #ddd;
+}
+
+/* Create an active/current tablink class */
+.tab button.active {
+  background-color: #ccc;
+}
+
+/* Style the tab content */
+.tabcontent {
+  display: none;
+  padding: 6px 12px;
+  border: 1px solid #ccc;
+  border-top: none;
+}
+
+
+
+
+.social-icon{
+  color: rgb(249, 249, 249);
+  margin: 20px 10px;
+} 
+
+.social-icon:hover{
+  color: rgb(155, 210, 230);
+}
+
+#footer {
+  /* position: fixed; */
+  left: 0;
+  padding-top: 10px;
+  padding-bottom: 5px;
+  bottom: 0;
+  width: 100%;
+  background-color: rgb(2, 40, 111);
+  color: white;
+  text-align: center;
+}
+
+
+#activity{
+  background-color: #ccc;
+}
+
+
+#pricing{
+  background-color: #ddd;
+  padding-bottom: 20px;
+  margin-bottom: 30px;
+}
+
+.row{
+  padding: 0 20px;
+}
+
+.section-heading{
+  text-align: center;
+  padding: 20px 0;
+  margin-top: 15px;
+}
+
+
+
+.card-body{
+  background-color: rgb(238, 236, 236);
+  text-decoration: none;
+}
+
+.card-header{
+  text-align: center;
+  padding-top: 0;
+  padding-bottom: 0;
+  margin: 0;
+}
+
+.headerTitle{
+  background-color: rgb(84, 117, 180);
+  margin: 0;
+  padding: 5px;
+  color: rgb(235, 231, 231);
+}
+
+/* a:link{
+   text-decoration: none;
+   color: black;
+} */
+
+.read{
+  font-weight: 500;
+  border-radius: 5%;
+  /* border: solid; */
+}
+
+read:hover{
+  color:aliceblue
+}
+
+.btn {
+  border: 2px solid black;
+  background-color: white;
+  color: black;
+  padding: 14px 28px;
+  font-size: 16px;
+  cursor: pointer;
+}
+.info {
+  border-color: #2196F3;
+  /* color: dodgerblue */
+}
+.temp{
+  padding-bottom: 7px;
+}
+.colored-section{
+  padding: 25px;
+  /* background-color: rgb(122, 46, 46); */
+  background-image: url("https://thumbs.dreamstime.com/b/education-school-hero-header-back-to-background-57244679.jpg");
+  margin-bottom: 30px;
+}
+
+.colored-content{
+  padding: 15px 10px;
+  /* background-color:  */
+}
+
+.vision{
+  color: rgb(154, 148, 148);
+  padding-top: 10px;
+  /* padding-bottom: 5px; */
+}
+
+
+.eve{
+  text-align: center;
+  padding: 15px 0;
+  background-color: rgb(42, 125, 125);
+  color: white;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 100px;
+  margin-right: 100px;
+  border-radius: 5px;
+  position: relative;
+}
+
+
+.tab{
+  margin: 10px 100px;
+}
+
+.tabInfo{
+  margin: 0 100px;
+  padding-top: 25px;
+}
+
+
+.image {
+  float: left;
+  margin-right: 30px;
+  height:240px;width: 240px;
+  margin-bottom: 15px;
+  margin-left: 9px;
+  
+}
+.clear {
+  clear: both;
+}
+
+
+
+.faculty-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.faculty-card {
+  display: flex;
+  width: calc(50% - 30px);
+  margin-bottom: 30px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+  border-radius: 8px;
+  overflow: hidden;
+  margin-right: 20px;
+}
+
+.facImg{
+  margin-left: 10px;
+  margin-top: 10px;
+}
+
+.facGImg{
+  margin-left: 5px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+.facAImg{
+  margin-left: 5px;
+  margin-top: 15px;
+  margin-bottom: 5px;
+}
+
+.faculty-card-left {
+  flex: 1;
+}
+
+.faculty-card-right {
+  flex: 2;
+  padding: 20px;
+}
+
+.faculty-card img {
+  width: 80%;
+  height: auto;
+}
+
+.faculty-card h3 {
+  margin: 0 0 10px;
+  font-size: 1.5em;
+}
+
+.faculty-card p {
+  margin: 0;
+  /* font-style: italic; */
+}
+
+
+
+@media screen and (max-width: 767px) {
+  .faculty-card {
+    width: 100%;
+    margin-right: 0;
+  }
+}
+
